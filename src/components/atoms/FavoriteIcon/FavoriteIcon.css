@@ -1,0 +1,11 @@
+.favorite-icon {
+  margin: 0 4px;
+}
+
+.favorite-icon path {
+  fill: #606f73;
+}
+
+.favorite-icon--favorited path {
+  fill: #00c995;
+}

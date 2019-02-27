@@ -1,0 +1,7 @@
+.entity .entity__metadata-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 8px;
+  align-items: center;
+  justify-content: space-between;
+}

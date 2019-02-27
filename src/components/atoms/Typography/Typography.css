@@ -1,0 +1,18 @@
+.entity .entity__primary-text {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  color: #606f73;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.entity .entity__secondary-text {
+  margin: 0;
+  font-size: 14px;
+  color: #949ea1;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.entity .entity__text--no-bottom-margin {
+  margin-bottom: 0;
+}

@@ -1,0 +1,14 @@
+.entities-list {
+  position: relative;
+  padding: 0;
+  max-width: 480px;
+  margin: 0 auto;
+  margin-top: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.entities-list > li {
+  margin: 16px;
+}

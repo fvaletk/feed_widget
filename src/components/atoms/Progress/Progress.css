@@ -1,0 +1,96 @@
+.progress {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  animation-name: rotate;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+}
+
+.dot {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 0.9s;
+}
+
+.first-dot {
+  background-color: #00b486;
+  top: 0;
+  left: 0;
+  animation-name: leftToRight, topToBottom;
+}
+
+.second-dot {
+  background-color: #00c995;
+  bottom: 0;
+  left: 0;
+  animation-name: leftToRight, bottomToTop;
+}
+
+.third-dot {
+  background-color: #66debf;
+  bottom: 0;
+  right: 0;
+  animation-name: rightToLeft, bottomToTop;
+}
+
+.fourth-dot {
+  background-color: #b2eedf;
+  top: 0;
+  right: 0;
+  animation-name: rightToLeft, topToBottom;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes leftToRight {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 60%;
+  }
+}
+
+@keyframes rightToLeft {
+  from {
+    right: 0;
+  }
+
+  to {
+    right: 60%;
+  }
+}
+
+@keyframes topToBottom {
+  from {
+    top: 0;
+  }
+
+  to {
+    top: 60%;
+  }
+}
+
+@keyframes bottomToTop {
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: 60%;
+  }
+}

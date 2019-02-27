@@ -1,0 +1,16 @@
+.entity .entity__wrapper {
+  font-size: 24px;
+}
+
+.entity a,
+.entity a:link,
+.entity a:visited,
+.entity a:hover {
+  text-decoration: none;
+}
+
+.entity a,
+.entity a:link,
+.entity a:visited {
+  color: #00c995;
+}
